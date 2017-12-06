@@ -1,4 +1,4 @@
-# Android kernel for exynos7270
+# Tizen kernel for exynos7270
 ## ATTENTION! YOUR WARRANTY IS NOW VOID
 Kernel source for Gear S3 devices, optimized for running android platform.  
 This source will likely hard brick your device, use the download links or the stable branch below to download stable compiled kernel.
