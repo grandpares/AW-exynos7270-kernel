@@ -10,7 +10,7 @@ For tizen kernel, use the tizen-kernel branch.
 2. Clone this branch  
 	```$```
 3. Export tools to PATH  
-	```$ export CROSS_COMPILE=toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-```  
+	```$ export CROSS_COMPILE=aarch64-lunux-gnu-```  
 	```$ export ARCH=arm64```
 4. Prepare and build headers  
 	```$ make distclean```  
