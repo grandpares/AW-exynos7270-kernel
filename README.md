@@ -20,6 +20,7 @@ For tizen kernel, use the tizen-kernel branch.
 5. Build the kernel  
 	```$ chmod a+x ./scripts/exynos_dtbtool.sh```  
 	```$ chmod a+x ./scripts/exynos_mkdzimage.sh```  
+	```$ cp /usr/lib/gcc-cross/aarch64-linux-gnu/5/libgcc.a toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x```  
 	```$ make tizen_solis_defconfig  //For SM-R760, SM-R770```  
 	```$ make tizen_solis_defconfig_lte  //For SM-R765```  
 	```$ make Image```  
