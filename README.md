@@ -1,0 +1,1 @@
+# AW-exynos7270-kernel
