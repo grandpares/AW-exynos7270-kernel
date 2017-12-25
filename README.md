@@ -4,6 +4,9 @@ Kernel source for Gear S3 devices, optimized for running android platform.
 This source will likely hard brick your device, use the download links or the stable branch below to download stable compiled kernel.
 For tizen kernel, use the tizen-kernel branch.
 
+## DO NOT FLASH! 
+This source is unfinished. It contains no recovery environment, which means your watch will be unable to talk to odin. Furthermore, it will not boot tizen OR android. Developers should use quemu for testing until the kernel boots to some state, otherwise it's just a waste of testing devices.
+
 ## Build instructions
 1. Prepare the build environment  
 	```$ sudo apt-get install build-essential kernel-package libncurses5-dev bzip2```
